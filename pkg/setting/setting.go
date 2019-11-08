@@ -9,7 +9,7 @@ import (
 
 type App struct {
 	JwtSecret string
-	PageSize  int
+	PageSize  int32
 	PrefixUrl string
 
 	RuntimeRootPath string

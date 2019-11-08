@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	status_code "infinite-window-micro/pkg/http"
+	status_code "go-micro-example/pkg/http"
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"

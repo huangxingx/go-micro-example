@@ -6,15 +6,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"infinite-window-micro/pkg/e"
-	"infinite-window-micro/pkg/util"
+	"go-micro-example/pkg/e"
+	"go-micro-example/pkg/util"
 )
 
 type Gin struct {
 	C *gin.Context
 }
 
-func NewAppGin(c *gin.Context) Gin {
+func NewAppGin(c *gin.Context) (appG Gin) {
 
 	return Gin{C: c}
 }

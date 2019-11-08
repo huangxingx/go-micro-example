@@ -10,7 +10,7 @@ import (
 	"github.com/micro/go-micro/metadata"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	status_code "infinite-window-micro/pkg/http"
+	status_code "go-micro-example/pkg/http"
 )
 
 // sf sampling frequency

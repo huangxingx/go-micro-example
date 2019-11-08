@@ -12,8 +12,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/micro/go-micro/util/log"
 
-	"infinite-window-micro/pkg/app"
-	"infinite-window-micro/pkg/e"
+	"go-micro-example/pkg/app"
+	"go-micro-example/pkg/e"
 )
 
 var (

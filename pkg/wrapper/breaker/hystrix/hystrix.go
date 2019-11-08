@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	status_code "infinite-window-micro/pkg/http"
+	status_code "go-micro-example/pkg/http"
 
 	"github.com/afex/hystrix-go/hystrix"
 )

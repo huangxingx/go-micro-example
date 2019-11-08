@@ -5,7 +5,7 @@ This is the AdminUser service
 Generated with
 
 ```
-micro new infinite-window-micro/srv/adminUser --namespace=com.infinite --type=srv
+micro new infinite-window-micro/srv/adminUser --namespace=com.example --type=srv
 ```
 
 ## Getting Started
@@ -16,7 +16,7 @@ micro new infinite-window-micro/srv/adminUser --namespace=com.infinite --type=sr
 
 ## Configuration
 
-- FQDN: com.infinite.srv.adminUser
+- FQDN: com.example.srv.adminUser
 - Type: srv
 - Alias: adminUser
 

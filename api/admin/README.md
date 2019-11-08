@@ -5,7 +5,7 @@ This is the Admin service
 Generated with
 
 ```
-micro new infinite-window-micro/api/admin --namespace=com.infinite --type=web
+micro new infinite-window-micro/api/admin --namespace=com.example --type=web
 ```
 
 ## Getting Started
@@ -16,7 +16,7 @@ micro new infinite-window-micro/api/admin --namespace=com.infinite --type=web
 
 ## Configuration
 
-- FQDN: com.infinite.web.admin
+- FQDN: com.example.web.admin
 - Type: web
 - Alias: admin
 

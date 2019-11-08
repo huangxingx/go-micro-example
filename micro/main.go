@@ -12,10 +12,10 @@ import (
 	"github.com/micro/micro/plugin"
 	opentracing "github.com/opentracing/opentracing-go"
 
-	"infinite-window-micro/pkg/tracer"
-	"infinite-window-micro/pkg/wrapper/breaker/hystrix"
-	"infinite-window-micro/pkg/wrapper/metrics/prometheus"
-	"infinite-window-micro/pkg/wrapper/tracer/opentracing/stdhttp"
+	"go-micro-example/pkg/tracer"
+	"go-micro-example/pkg/wrapper/breaker/hystrix"
+	"go-micro-example/pkg/wrapper/metrics/prometheus"
+	"go-micro-example/pkg/wrapper/tracer/opentracing/stdhttp"
 )
 
 func init() {

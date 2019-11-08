@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"github.com/prometheus/common/log"
-	admin "infinite-window-micro/srv/adminUser/proto/adminUser"
+	admin "go-micro-example/srv/adminUser/proto/adminUser"
 )
 
 type AdminUser struct{}

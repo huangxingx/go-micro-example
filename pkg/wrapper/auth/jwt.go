@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"infinite-window-micro/pkg/token"
+	"go-micro-example/pkg/token"
 
 	"github.com/micro/micro/plugin"
 )

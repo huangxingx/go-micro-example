@@ -3,8 +3,8 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/micro/go-micro/client"
-	"infinite-window-micro/api/app/handler"
-	"infinite-window-micro/pkg/wrapper/tracer/opentracing/gin2micro"
+	"go-micro-example/api/app/handler"
+	"go-micro-example/pkg/wrapper/tracer/opentracing/gin2micro"
 )
 
 func InitRouter(client client.Client) *gin.Engine {
@@ -14,6 +14,13 @@ func InitRouter(client client.Client) *gin.Engine {
 
 	{
 		r.GET("/echo", handler.Echo)
+	}
+
+	// 店铺服务
+	shopApi := handler.NewShopApi(client)
+	{
+		r.POST("/shop", shopApi.CreateShop)
+		r.GET("/shop", shopApi.GetListShop)
 	}
 
 	return router

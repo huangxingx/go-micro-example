@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/micro/go-micro/util/log"
 
-	adminUser "infinite-window-micro/srv/adminUser/proto/adminUser"
+	adminUser "go-micro-example/srv/adminUser/proto/adminUser"
 )
 
 type AdminUser struct{}

@@ -1,10 +1,12 @@
-module infinite-window-micro
+module go-micro-example
 
 go 1.13
 
 require (
 	github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
 	github.com/bwmarrin/discordgo v0.20.1 // indirect
+	github.com/chzyer/logex v1.1.10 // indirect
+	github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1 // indirect
 	github.com/cloudflare/cloudflare-go v0.10.7 // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -13,6 +15,7 @@ require (
 	github.com/go-ini/ini v1.50.0
 	github.com/go-log/log v0.1.0
 	github.com/golang/protobuf v1.3.2
+	github.com/jinzhu/gorm v1.9.11
 	github.com/json-iterator/go v1.1.8 // indirect
 	github.com/klauspost/cpuid v1.2.1 // indirect
 	github.com/lucas-clemente/quic-go v0.13.0 // indirect
@@ -20,9 +23,10 @@ require (
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/mattn/go-runewidth v0.0.6 // indirect
 	github.com/mholt/certmagic v0.8.3 // indirect
+	github.com/micro/cli v0.2.0
 	github.com/micro/go-micro v1.15.1
 	github.com/micro/go-plugins v1.4.0
-	github.com/micro/micro v1.15.1 // indirect
+	github.com/micro/micro v1.15.1
 	github.com/nats-io/nats.go v1.9.1 // indirect
 	github.com/nats-io/nkeys v0.1.2 // indirect
 	github.com/opentracing/opentracing-go v1.1.0

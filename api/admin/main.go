@@ -9,13 +9,13 @@ import (
 	"github.com/micro/go-plugins/registry/consul"
 	"github.com/opentracing/opentracing-go"
 
-	"infinite-window-micro/api/admin/router"
-	"infinite-window-micro/pkg/tracer"
+	"go-micro-example/api/admin/router"
+	"go-micro-example/pkg/tracer"
 )
 
 const (
 	Version = "v0.1.0"
-	Name    = "com.infinite.api.admin"
+	Name    = "com.example.api.admin"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/util/log"
 
-	"infinite-window-micro/pkg/app"
-	"infinite-window-micro/pkg/wrapper/tracer/opentracing/gin2micro"
-	adminUserS "infinite-window-micro/srv/adminUser/proto/adminUser"
+	"go-micro-example/pkg/app"
+	"go-micro-example/pkg/wrapper/tracer/opentracing/gin2micro"
+	adminUserS "go-micro-example/srv/adminUser/proto/adminUser"
 )
 
 type AdminUserApi struct {

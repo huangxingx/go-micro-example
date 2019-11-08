@@ -5,7 +5,7 @@ build:
 
 .PHONY: run
 run:build
-	../build/microGW  --registry=consul api -handler=http --namespace=com.infinite.api
+	../build/microGW  --registry=consul api -handler=http --namespace=com.example.api
 
 .PHONY: test
 test:

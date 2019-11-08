@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/opentracing/opentracing-go"
-	"infinite-window-micro/pkg/tracer"
+	"go-micro-example/pkg/tracer"
 	"time"
 
 	"github.com/micro/go-micro/service/grpc"
@@ -10,12 +10,12 @@ import (
 	"github.com/micro/go-micro/web"
 	"github.com/micro/go-plugins/registry/consul"
 
-	"infinite-window-micro/api/app/router"
+	"go-micro-example/api/app/router"
 )
 
 const (
 	Version = "v0.1.0"
-	Name    = "com.infinite.api.app"
+	Name    = "com.example.api.app"
 )
 
 func main() {

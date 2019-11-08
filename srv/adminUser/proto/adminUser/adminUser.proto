@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package com.infinite.srv.adminUser;
+package com.example.srv.adminUser;
 
 service AdminUserService {
     rpc Insert (AdminUser) returns (Response) {

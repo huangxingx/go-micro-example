@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"infinite-window-micro/constant"
-	"infinite-window-micro/pkg/setting"
+	"go-micro-example/constant"
+	"go-micro-example/pkg/setting"
 	"math"
 	"math/rand"
 )

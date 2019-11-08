@@ -2,12 +2,12 @@ package app
 
 import (
 	"fmt"
-	"infinite-window-micro/constant"
+	"go-micro-example/constant"
 	"strings"
 
 	"github.com/unknwon/com"
-	"infinite-window-micro/pkg/e"
-	"infinite-window-micro/pkg/setting"
+	"go-micro-example/pkg/e"
+	"go-micro-example/pkg/setting"
 )
 
 type errorNoAuth struct {
@@ -30,17 +30,17 @@ func (g *Gin) GetAuthUserId() uint {
 	return userIdInt
 }
 
-func (g *Gin) GetPage() int {
+func (g *Gin) GetPage() int32 {
 	page := com.StrTo(g.C.DefaultQuery("page", "0")).MustInt()
 	if page <= 0 {
 		page = 1
 	}
 
-	return page
+	return int32(page)
 }
 
-func (g *Gin) GetPageSize() int {
-	pageSize := com.StrTo(g.C.DefaultQuery("page_size", "0")).MustInt()
+func (g *Gin) GetPageSize() int32 {
+	pageSize := int32(com.StrTo(g.C.DefaultQuery("page_size", "0")).MustInt())
 	if pageSize <= 0 {
 		pageSize = setting.AppSetting.PageSize
 	}
