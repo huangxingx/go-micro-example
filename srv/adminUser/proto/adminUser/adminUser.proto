@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.infinite.srv.adminUser;
+
+service AdminUserService {
+    rpc Insert (AdminUser) returns (Response) {
+    }
+    rpc GetById (Request) returns (AdminUser) {
+    }
+    rpc UpdateById (AdminUser) returns (Response) {
+    }
+}
+
+message AdminUser {
+    int64 id = 1;
+    string username = 2;
+    int64 role_id = 3;
+    string remark = 4;
+    bool is_super = 5;
+    bool is_active = 6;
+    string password = 7;
+}
+
+message Response {
+}
+
+message Request {
+    int64 id = 1;
+}
