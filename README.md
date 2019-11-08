@@ -1,3 +1,5 @@
+### 项目说明： 本项目基于 https://github.com/Allenxuxu/microservices.git 项目改进
+### 非常感谢 [Allenxuxu](https://github.com/Allenxuxu)
 # micro
 使用micro微服务框架，包含微服务开发中必备的鉴权，熔断，监控，链路追踪等
 
